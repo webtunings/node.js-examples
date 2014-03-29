@@ -27,7 +27,7 @@ tcpServer.on('connection', function(socket){
 
 
 	socket.on('end', function(){
-	sockets.splice(sockets.indexOf(sockets),1);
+	sockets.splice(sockets.indexOf(socket),1);
 	});
 
 });
