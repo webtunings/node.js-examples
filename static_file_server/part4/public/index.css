@@ -1,0 +1,29 @@
+*{
+  border:0;
+  padding:0;
+  margin:0;
+}
+
+div{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+form{
+ min-width:25vw;
+  min-height:10vh;
+  background-color: hsl(25,100%,50%);
+  color: white;
+  font-size: 2em;
+  font-family: courier;
+  font-weight: bold;
+  padding: 10px;
+}
+
+
+
+
