@@ -1,0 +1,8 @@
+{
+  "name": "node.js-webtunings",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "node-inspector": "0.6.2"
+  }
+}
